@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en" id="top">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkyGuardian is a student team project on civilian airspace safety. This case study covers my work as project leader and the team’s prototype development and testing.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#11191c">
+  <meta property="og:title" content="SkyGuardian — Project Case Study">
+  <meta property="og:description" content="Project leadership, commercial strategy, and prototype development for a civil UAV countermeasure system.">
+  <title>SkyGuardian — Project Case Study</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="media.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a href="#top" class="wordmark">SkyGuardian</a>
+      <nav aria-label="Project sections">
+        <a href="#contribution">My role</a>
+        <a href="#research">Research</a>
+        <a href="#prototype">Prototype</a>
+        <a href="#development">Process</a>
+        <a href="#testing">Testing</a>
+        <a href="#deployment">Deployment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Project Leader / FabTitan team project</p>
+          <h1 id="title">SkyGuardian</h1>
+          <p class="hero-deck">A domestic civil UAV countermeasure system</p>
+          <a class="button" href="#contribution">View my contribution</a>
+        </div>
+        <figure class="hero-figure">
+          <div class="hero-image">
+            <img src="assets/prototype-concept.webp" width="1250" height="832" alt="Orange and charcoal XJ-A0 platform in its aerial configuration" fetchpriority="high">
+          </div>
+          <figcaption>XJ-A0 platform in its aerial configuration</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="project-strip">
+      <dl class="wrap project-meta">
+        <div><dt>Team</dt><dd>FabTitan, Guangzhou Xinhua University</dd></div>
+        <div><dt>Presentation</dt><dd>2026 Dongbao Cup campus final</dd></div>
+        <div><dt>Competition</dt><dd>China International College Students’ Innovation Competition</dd></div>
+      </dl>
+    </div>
+
+    <section class="section wrap" id="contribution" aria-labelledby="contribution-title">
+      <div class="section-grid">
+        <div>
+          <p class="eyebrow">My contribution</p>
+          <h2 id="contribution-title">Project leadership and commercial strategy</h2>
+        </div>
+        <div class="prose">
+          <p class="lead">I led the FabTitan project and developed the business case for bringing the team’s prototype into civilian venues.</p>
+          <p>I defined customer profiles for event organizers and security providers, mapped their purchasing workflows, and developed a pricing strategy. The business model considered equipment purchases for ongoing needs, short-term rentals for temporary events, and software support as a recurring service.</p>
+          <p>I authored the business plan and developed the pitch deck for the Dongbao Cup campus final. The presentation connected the team’s prototype and test demonstrations to the proposed use cases and purchasing options.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-bordered wrap" id="research" aria-labelledby="research-title">
+      <div class="section-grid">
+        <div>
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">Airspace safety at public events</h2>
+        </div>
+        <div class="prose">
+          <p class="lead">How could venue teams identify unauthorized drone activity when event layouts, lighting, and sightlines change?</p>
+          <p>Unauthorized low-altitude flights can create safety and privacy risks at crowded events. The team identified recurring challenges in existing systems, including false alarms, slow responses, fixed installations, and regulations that were still evolving.</p>
+          <p>Those constraints shaped a mobile concept. The team explored a ground-and-air platform that could be repositioned at a site, drawing on several sources of sensor data to help an operator assess an alert.</p>
+        </div>
+      </div>
+      <dl class="requirements">
+        <div><dt>Mobility</dt><dd>Support temporary venues and changing site layouts.</dd></div>
+        <div><dt>Detection</dt><dd>Cross-check observations across different lighting conditions.</dd></div>
+        <div><dt>Serviceability</dt><dd>Use replaceable modules and prioritize locally available parts.</dd></div>
+      </dl>
+    </section>
+
+    <section class="section section-muted" id="prototype" aria-labelledby="prototype-title">
+      <div class="wrap">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow">Prototype</p>
+            <h2 id="prototype-title">A platform designed to move</h2>
+          </div>
+          <div class="prose">
+            <p class="lead">XJ-A0 brought ground mobility and flight into a single prototype for temporary deployment.</p>
+            <p>The team developed a modular layout to make parts easier to replace during iteration. It built an integrated prototype, refined the packaging, and used simulation to study the transition between ground travel and flight.</p>
+          </div>
+        </div>
+
+        <div class="design-study">
+          <h3>3D views of the ground configuration</h3>
+          <div class="design-gallery">
+            <figure>
+              <div class="photo render-frame">
+                <img src="assets/design-front.webp" width="1320" height="761" alt="Front 3D rendering of the gold and violet ground configuration" loading="lazy">
+              </div>
+              <figcaption>Front view</figcaption>
+            </figure>
+            <figure>
+              <div class="photo render-frame">
+                <img src="assets/design-three-quarter.webp" width="1320" height="676" alt="Three-quarter 3D rendering of the ground configuration, showing the exterior from the front and side" loading="lazy">
+              </div>
+              <figcaption>Three-quarter view</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="prototype-grid">
+          <figure>
+            <div class="photo photo-ground">
+              <img src="assets/ground-concept.webp" width="1250" height="658" alt="Front view of the platform in its wheeled ground configuration" loading="lazy">
+            </div>
+            <figcaption>XJ-A0 platform in its ground configuration</figcaption>
+          </figure>
+          <figure>
+            <div class="photo photo-workshop">
+              <img src="assets/fabrication.webp" width="900" height="525" alt="Sheet material on a fabrication machine in the project workshop" loading="lazy">
+            </div>
+            <figcaption>Workshop fabrication documented by the team</figcaption>
+          </figure>
+        </div>
+        <h3 class="timeline-heading">Development milestones</h3>
+        <ol class="timeline">
+          <li><time datetime="2022-10">Oct 2022</time><strong>Concept</strong><p>Defined the system architecture and development plan.</p></li>
+          <li><time datetime="2023">2023</time><strong>Integration</strong><p>Built the first integrated prototype.</p></li>
+          <li><time datetime="2024">2024</time><strong>Iteration</strong><p>Refined the modular design and carried out integration tests.</p></li>
+          <li><time datetime="2025">2025</time><strong>Use cases</strong><p>Explored applications at temporary venues and large public events.</p></li>
+          <li><time datetime="2026">2026</time><strong>Campus final</strong><p>Presented the prototype, test demonstrations, and roadmap.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section wrap" id="development" aria-labelledby="development-title">
+      <div class="section-grid">
+        <h2 id="development-title">Development process</h2>
+        <div class="prose">
+          <p class="lead">The team explored the platform’s form in 3D, prepared parts in the workshop, and checked how the physical prototype moved on the bench and outdoors.</p>
+        </div>
+      </div>
+
+      <ol class="process-stages" role="list">
+        <li class="process-stage">
+          <div class="process-copy">
+            <h3>Model the platform</h3>
+            <p>The team used two exterior studies to explore how the platform could change from ground travel to flight.</p>
+          </div>
+          <div class="process-media">
+            <figure>
+              <div class="media-player process-frame">
+                <img src="assets/circular-mobility-concept.webp" width="960" height="540" alt="A white and blue circular concept in the team’s 3D animation" loading="lazy">
+                <video width="960" height="540" playsinline muted preload="none" poster="assets/circular-mobility-concept.webp" aria-label="Animation of the alternate platform concept in ground and flight configurations" hidden></video>
+                <a class="video-play" href="assets/circular-mobility-concept.mp4" aria-live="polite">Play concept study <span>0:13</span></a>
+              </div>
+              <figcaption><strong>Alternative concept.</strong> An exterior study of a circular platform.</figcaption>
+            </figure>
+            <figure>
+              <div class="media-player process-frame">
+                <img src="assets/configuration-transition.webp" width="768" height="768" alt="The rendered XJ-A0 partway through changing into its flight configuration" loading="lazy">
+                <video width="960" height="960" playsinline muted preload="none" poster="assets/configuration-transition.webp" aria-label="3D animation of the XJ-A0 changing from ground travel to flight configuration" hidden></video>
+                <a class="video-play" href="assets/configuration-transition.mp4" aria-live="polite">Play XJ-A0 animation <span>0:05</span></a>
+              </div>
+              <figcaption><strong>XJ-A0 model.</strong> The prototype’s transition visualized in 3D.</figcaption>
+            </figure>
+          </div>
+        </li>
+
+        <li class="process-stage">
+          <div class="process-copy">
+            <h3>Prepare parts and check the chassis</h3>
+            <p>Workshop records show part preparation and a bench check of wheel motion on the physical prototype.</p>
+          </div>
+          <div class="process-media">
+            <figure>
+              <div class="photo process-frame process-photo">
+                <img src="assets/workshop-part-preparation.webp" width="1080" height="921" alt="Hands handling an orange part at a machine in the team’s workshop" loading="lazy">
+              </div>
+              <figcaption><strong>Workshop part preparation.</strong> A photograph from the team’s build documentation.</figcaption>
+            </figure>
+            <figure>
+              <div class="media-player process-frame">
+                <img src="assets/bench-wheel-motion.webp" width="600" height="800" alt="Close view of an orange prototype wheel during a bench check" loading="lazy">
+                <video width="600" height="800" playsinline muted preload="none" poster="assets/bench-wheel-motion.webp" aria-label="Video of the prototype wheel assembly changing orientation during a bench check" hidden></video>
+                <a class="video-play" href="assets/bench-wheel-motion.mp4" aria-live="polite">Play bench check <span>0:05</span></a>
+              </div>
+              <figcaption><strong>Bench check.</strong> A close-up of the wheel assembly changing orientation.</figcaption>
+            </figure>
+          </div>
+        </li>
+
+        <li class="process-stage">
+          <div class="process-copy">
+            <h3>Try the prototype outdoors</h3>
+            <p>The team drove the prototype across a campus courtyard. This excerpt shows ground travel during the trial that also included a brief lift-off.</p>
+            <a class="process-link" href="#lift-off">See the lift-off excerpt</a>
+          </div>
+          <div class="process-media process-media-single">
+            <figure>
+              <div class="media-player evidence-image">
+                <img src="assets/ground-maneuver.webp" width="960" height="540" alt="The physical prototype in the campus courtyard during the mobility trial" loading="lazy">
+                <video width="960" height="540" playsinline muted preload="none" poster="assets/ground-maneuver.webp" aria-label="Earlier ground-mobility excerpt from the courtyard trial" hidden></video>
+                <a class="video-play" href="assets/ground-maneuver.mp4" aria-live="polite">Play ground trial <span>0:07</span></a>
+              </div>
+              <figcaption><strong>Ground mobility.</strong> An earlier excerpt from the outdoor prototype trial.</figcaption>
+            </figure>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section section-bordered wrap" id="testing" aria-labelledby="testing-title">
+      <div class="section-grid">
+        <div>
+          <p class="eyebrow">Testing</p>
+          <h2 id="testing-title">What the team tested</h2>
+        </div>
+        <div class="prose">
+          <p class="lead">The team ran outdoor mobility trials with the physical prototype and demonstrated visual drone detection.</p>
+          <p>For visual detection, the team screened a collection of 20,000 images and retained 10,000 for model training.</p>
+        </div>
+      </div>
+      <div class="evidence-grid">
+        <figure id="lift-off">
+          <div class="media-player evidence-image">
+            <img src="assets/outdoor-mobility-trial.webp" width="568" height="320" alt="The physical prototype just above the ground in a campus courtyard" loading="lazy">
+            <video width="568" height="320" playsinline muted preload="none" poster="assets/outdoor-mobility-trial.webp" aria-label="Outdoor video of the physical prototype moving across a courtyard and briefly lifting off" hidden></video>
+            <a class="video-play" href="assets/outdoor-mobility-trial.mp4" aria-live="polite">Play outdoor trial <span>0:06</span></a>
+          </div>
+          <figcaption><strong>Lift-off excerpt.</strong> Later in the same courtyard trial, the prototype briefly lifts off.</figcaption>
+        </figure>
+        <figure>
+          <div class="photo evidence-image">
+            <img src="assets/detection-demo.webp" width="575" height="373" alt="A screen showing a blue detection box around a drone in a sample image" loading="lazy">
+          </div>
+          <figcaption><strong>Visual detection.</strong> A sample detection shown in the project presentation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="deployment" aria-labelledby="deployment-title">
+      <div class="wrap">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow">Responsible deployment</p>
+            <h2 id="deployment-title">Operator oversight and privacy</h2>
+          </div>
+          <div class="prose">
+            <p class="lead">The team proposed that operators review alerts, assess site conditions, and confirm their authorization before taking action.</p>
+            <p>The team also proposed collecting only the data needed for each alert, processing it locally where possible, and using role-based access and audit logs to protect footage and records.</p>
+            <p>The roadmap proposed further prototype refinement and pilot evaluations with event and venue teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>SkyGuardian</strong>
+        <p>Presented as Xunji Airspace in FabTitan’s Dongbao Cup campus-final deck.</p>
+      </div>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
